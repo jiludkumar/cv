@@ -359,7 +359,7 @@ h2{
     display:grid;
     position:relative;
 
-    grid-template-columns:300px 300px 300px;
+    grid-template-rows:300px 300px 300px;
     grid-gap: 5px;
     background-color:#FFE88C;
     box-shadow: 10px 10px 10px rgb(0,0,0);

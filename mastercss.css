@@ -223,7 +223,7 @@ h2{
 
 
     
-@media only screen and(min-device-width :360px )
+@media only screen and(min-device-width :360px )and (max-device-width : 480px)
     {
         html { 
     background-color:rgba(221, 216, 216,0.5);

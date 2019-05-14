@@ -222,9 +222,8 @@ h2{
 
 
 
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     
-@media only screen and(min-device-width :360px )and (max-device-width : 480px)
-    {
         html { 
     background-color:rgba(221, 216, 216,0.5);
     background-size: cover;

@@ -223,7 +223,7 @@ h2{
 
 
     
-@media only screen and(min-width:720px )
+@media only screen and(min-width:360px )
     {
         html { 
     background-color:rgba(221, 216, 216,0.5);
@@ -543,4 +543,4 @@ h2{
 
 
 
-}
+

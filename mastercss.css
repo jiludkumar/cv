@@ -357,7 +357,7 @@ h2{
 
    .container {
     display:grid;
-    position:relative;
+   
 
     grid-template-rows:300px 300px 300px;
     grid-gap: 5px;

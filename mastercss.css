@@ -225,6 +225,233 @@ h2{
     @media only screen and (max-width: 768px)
         {
     
+       html { 
+    background-color:rgba(221, 216, 216,0.5);
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+    position: relative;
+    
+    
+    animation: page-loading;
+    animation-duration:8s;
+  
+    }
+
+    
+    
+    
+
+
+     @keyframes page-loading{
+         0%{
+             
+            background:url(noise-min.gif);
+            position:fixed;
+            
+            opacity:0;           
+            
+           
+         }
+         10%{
+            background:url(noise-min.gif);
+             opacity:0.1;
+
+         }
+         25%{
+              
+            background:url(noise-min.gif);
+             opacity:0.2;
+             position:fixed;
+         }
+         35%{
+              
+            background:url(noise-min.gif);
+             opacity:0.4;
+             position:fixed;
+         }
+         40%{
+            position:fixed;
+            background:url(noise-min.gif);
+             opacity:0.5;
+         }
+         
+         50%{
+            position:fixed;
+            background:url(noise-min.gif);
+                opacity:0.6;
+            
+         }
+         60%{
+            position:fixed;
+            background:url(noise-min.gif);
+             opacity:0.7;
+         
+            }
+         75%{
+            position:fixed;
+            background:url(noise-min.gif);
+             opacity:0.8;
+         }
+         85%{
+            position:fixed;
+            background:url(noise-min.gif);
+             opacity:0.9;
+         }
+         90%{
+            position:fixed;
+            background:url(noise-min.gif);
+             opacity:1;
+         }
+         100%{
+            position:fixed;
+            background:url(noise-min.gif);
+             opacity:1;
+         }
+        }
+
+
+
+
+.box
+{
+
+    height:500px;
+    background-color:#FFC0BE;
+    width:400px;
+    padding:100px;
+    color: rgb(26, 25, 25);
+    margin:0 auto;
+    margin-top:15px;
+    
+    text-align:center;
+    box-shadow: 7px 7px 7px rgb(0,0,0);
+    position: relative;
+    z-index:-1;
+    
+}
+.box .profile
+{
+    height:250px;
+    width:250px;
+    margin-top:-50px;
+    border-radius: 50%;
+}
+h1{
+    letter-spacing: 2px;
+    
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.social{
+    font-size: 50px;
+}
+.line-break{
+    width:400px ;
+    border: 2px  solid rgb(0,0,0);    
+}
+ 
+
+   .container {
+    display:grid;
+    position:relative;
+
+    grid-template-rows:400px 400px 400px;
+    grid-gap:4px;
+    background-color:#FFE88C;
+    box-shadow: 10px 10px 10px rgb(0,0,0);
+    color:rgba(0,0,0,0);
+    height:700px;
+    width:100%;
+    margin-top:80px;
+    margin-left:-5px;
+    
+    
+}
+  .container .item1{
+   
+    background-color:rgba(59, 58, 58, 0.5);
+    width:400px;
+    box-shadow: 5px 5px 5px rgb(0,0,0);
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top:70px;
+    margin-left:10px;
+    height:400px;
+    text-align:center;
+   
+    transition:transform 0.5s;
+}
+
+  .container .item2{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:rgba(59, 58, 58, 0.5);
+    margin-left:40px;
+    margin-top:70px;
+    width:400px;
+    height:400px;
+    box-shadow: 5px 5px 5px rgb(0,0,0);
+    
+    text-align:center;
+    transition:transform 0.5s;
+ }   
+ .container .item3{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:rgba(59, 58, 58, 0.5);
+    box-shadow: 5px 5px 5px rgb(0,0,0);
+    margin-left:60px;
+    height:400px;
+    margin-top:70px;
+    width:400px;
+    text-align:center;
+    transition:transform 0.5s;
+}
+
+
+.container .item1:hover{
+    
+    color:rgb(0,0,0);
+    transform: scale(1.09);
+}
+
+
+.container .item2:hover{
+    color:rgb(0,0,0);
+    transform: scale(1.09);
+}
+
+
+
+.container .item3:hover{
+    background-color:rgba(59, 58, 58, 0.5);
+    color:rgba(0,0,0,1);
+    transform: scale(1.09);
+}
+
+
+
+
+.footer{
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -15px;
+    height: 15%;
+    background-color: rgb(0,0,0);
+    font-size:20px;
+    text-align: center;
+    
+    color:white;
+}
+
+
+
+
+
+
+    @media only screen and (min-width: 768px)
+        {
+    
         html { 
     background-color:rgba(221, 216, 216,0.5);
     background-size: cover;
@@ -324,7 +551,6 @@ h2{
     margin:0 auto;
     margin-top:-10px;
     margin-left: -15px;
-    margin-right:-10px;
     text-align:center;
     box-shadow: 7px 7px 7px rgb(0,0,0);
     position: relative;
@@ -357,17 +583,17 @@ h2{
 
    .container {
     display:grid;
-   
+    position:relative;
 
     grid-template-rows:300px 300px 300px;
-    grid-gap: 5px;
+    grid-gap: 150px;
     background-color:#FFE88C;
     box-shadow: 10px 10px 10px rgb(0,0,0);
     color:rgba(0,0,0,0);
     height:1400px;
     width:100%;
     
-  
+    margin-left:-5px;
     
     
 }
@@ -445,6 +671,12 @@ h2{
     width:100%;    
     color:white;
 }
+
+
+}
+
+
+
 
 
 }

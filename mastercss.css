@@ -224,8 +224,9 @@ h2{
 @media only screen and (max-width: 768px)
         {
     
-       html { 
-    background-color:rgba(221, 216, 216,0.5);
+     html { 
+    overflow-x :hidden;
+    background-color:white;;
     background-size: cover;
     font-family: 'Pacifico', cursive;
     font-size:20px;
@@ -312,28 +313,28 @@ h2{
 
 
 
-.box
-{
-
-    height:500px;
-    background-color:#FFC0BE;
-    width:400px;
-    padding:100px;
-    color: rgb(26, 25, 25);
-    margin:0 auto;
-    margin-top:15px;
-    
-    text-align:center;
-    box-shadow: 7px 7px 7px rgb(0,0,0);
-    position: relative;
-    z-index:-1;
-    
-}
+        .box
+        {
+            margin:0 auto;
+            height:500px;
+            background-color:#FFC0BE;
+            width:50%;
+            padding:100px;
+            color: rgb(26, 25, 25);
+            
+            margin-top:15px;
+            
+            text-align:center;
+            box-shadow: 7px 7px 7px rgb(0,0,0);
+            position: relative;
+            z-index:-1;
+            
+        }
 .box .profile
 {
-    height:250px;
+    height:200px;
     width:250px;
-    margin-top:-50px;
+    margin-top:-100px;
     border-radius: 50%;
 }
 h1{
@@ -347,8 +348,9 @@ h2{
     font-size: 50px;
 }
 .line-break{
-    width:400px ;
-    border: 2px  solid rgb(0,0,0);    
+    border: 2px  solid rgb(0,0,0);
+    margin-left: 220px;
+    width:790px;    
 }
  
 
@@ -371,7 +373,7 @@ h2{
   .container .item1{
    
     background-color:rgba(59, 58, 58, 0.5);
-    width:400px;
+    width:600px;
     box-shadow: 5px 5px 5px rgb(0,0,0);
     
     font-family: 'Gloria Hallelujah', cursive;
@@ -388,7 +390,7 @@ h2{
     background-color:rgba(59, 58, 58, 0.5);
     margin-left:40px;
     margin-top:70px;
-    width:400px;
+    width:600px;
     height:400px;
     box-shadow: 5px 5px 5px rgb(0,0,0);
     
@@ -402,7 +404,7 @@ h2{
     margin-left:60px;
     height:400px;
     margin-top:70px;
-    width:400px;
+    width:600px;
     text-align:center;
     transition:transform 0.5s;
 }
@@ -448,7 +450,7 @@ h2{
 
 
 
-    @media only screen and (min-width: 780px)
+    @media only screen and (min-width: 768px)
         {
     
         html { 
@@ -585,7 +587,7 @@ h2{
     position:relative;
 
     grid-template-rows:300px 300px 300px;
-    grid-gap: 15px;
+    grid-gap: 150px;
     background-color:#FFE88C;
     box-shadow: 10px 10px 10px rgb(0,0,0);
     color:rgba(0,0,0,0);
@@ -660,20 +662,19 @@ h2{
 
 
 .footer{
-    margin-left: -5px;
+    margin-left: 5px;
     margin-right: -5px;
-    margin-top: -15px;
-    height: 20%;
+    margin-top: 35px;
+    height: 10%;
     background-color: rgb(0,0,0);
-    font-size:20px;
-    text-align: center;
+    font-size:15px;
+    text-align: left;
     width:100%;    
     color:white;
 }
 
 
 }
-
 
 
 
